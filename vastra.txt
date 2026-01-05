@@ -1,4 +1,4 @@
-index.html<!DOCTYPE html>
+﻿index.html<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -71,27 +71,27 @@ index.html<!DOCTYPE html>
 
 <section class="hero">
   <h1>New Arrivals</h1>
-  <p>Style � Comfort � Quality</p>
+  <p>Style • Comfort • Quality</p>
 </section>
 
 <section class="products">
   <div class="product">
     <img src="https://images.unsplash.com/photo-1520975682031-a5f5f34c7f02">
     <h3>Men T-Shirt</h3>
-    <p class="price">?999</p>
+    <p class="price">₹999</p>
     <a class="btn" href="https://wa.me/9177300100111">Order on WhatsApp</a>
   </div>
 
   <div class="product">
     <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab">
     <h3>Women Dress</h3>
-    <p class="price">?1499</p>
+    <p class="price">₹1499</p>
     <a class="btn" href="https://wa.me/9177300100111">Order on WhatsApp</a>
   </div>
 </section>
 
 <footer>
-  <p>� 2026 Vastra. All Rights Reserved.</p>
+  <p>© 2026 Vastra. All Rights Reserved.</p>
 </footer>
 
 </body>
