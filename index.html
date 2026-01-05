@@ -1,0 +1,98 @@
+﻿index.html<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vastra | Clothing Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+    .hero {
+      background: #111;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .product {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    .price {
+      color: green;
+      font-weight: bold;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: black;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      background: #000;
+      color: #ccc;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h2>Vastra</h2>
+  <p>Premium Clothing</p>
+</header>
+
+<section class="hero">
+  <h1>New Arrivals</h1>
+  <p>Style • Comfort • Quality</p>
+</section>
+
+<section class="products">
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1520975682031-a5f5f34c7f02">
+    <h3>Men T-Shirt</h3>
+    <p class="price">₹999</p>
+    <a class="btn" href="https://wa.me/9177300100111">Order on WhatsApp</a>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab">
+    <h3>Women Dress</h3>
+    <p class="price">₹1499</p>
+    <a class="btn" href="https://wa.me/9177300100111">Order on WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Vastra. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
